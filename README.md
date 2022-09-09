@@ -1,0 +1,1 @@
+This is a readme file for this project which is a clone for starbucks page. It is not responsive as the purpose was to learn basic css selectors and DOM in JS.
