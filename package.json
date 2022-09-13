@@ -1,0 +1,22 @@
+{
+  "name": "practice-project",
+  "description": "This is a readme file for this project which is a clone for starbucks page. It is not responsive as the purpose was to learn basic css selectors and DOM in JS.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "cypress": "^10.7.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WaleedUmar007/Starbucks-UI-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WaleedUmar007/Starbucks-UI-/issues"
+  },
+  "homepage": "https://github.com/WaleedUmar007/Starbucks-UI-#readme"
+}
