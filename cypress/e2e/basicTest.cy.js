@@ -1,4 +1,4 @@
-
+const dimension = require ("./dimension") 
 
 describe('Basic testing to see if the link is working', () => {
   it('passes', () => {
@@ -17,4 +17,24 @@ describe ('Loops through links and see if they are broken',()=>{
       })
     })
   })
+})
+
+//code to check the responsiveness of the website
+
+
+
+beforeEach(()=>{
+  cy.on('uncaught:exception',(err,runnable)=>{
+    return false
+  })
+})
+
+describe("Check the responsiveness of the website on various screensize",()=>{
+  
+    it('Scrolling',()=>{
+      cy.viewport('iphone-6+')
+      cy.visit('http://127.0.0.1:5500/index.html')
+      cy.scrollTo("bottom",{duration:30000})
+      cy.scrollTo("top",{duration:30000})
+    })
 })
